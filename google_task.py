@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # Config
 # ---------------------
 URL = "https://en.wikipedia.org/wiki/Artificial_intelligence"  # choose one of the 3 URLs
-API_KEY = os.getenv("AIzaSyD-qxnbv8-PtDbrBmC_ffPF-JoSYZOBwfg")  # Set your Gemini API key in environment variable
+API_KEY = os.getenv("")  # Set your Gemini API key in environment variable
 MODEL_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
 # ---------------------
